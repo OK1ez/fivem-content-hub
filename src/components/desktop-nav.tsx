@@ -59,7 +59,7 @@ export function MainNav() {
             Props
           </Link>
           <Link
-            href="/blocks"
+            href="/clothes"
             className={cn(
               "transition-colors hover:text-foreground/80",
               pathname?.startsWith("/clothes")
@@ -70,7 +70,7 @@ export function MainNav() {
             Clothes
           </Link>
           <Link
-            href="/blocks"
+            href="/weapons"
             className={cn(
               "transition-colors hover:text-foreground/80",
               pathname?.startsWith("/weapons")
@@ -81,7 +81,7 @@ export function MainNav() {
             Weapons
           </Link>
           {/* <Link
-            href="/blocks"
+            href="/subscriptions"
             className={cn(
               "transition-colors hover:text-foreground/80",
               pathname?.startsWith("/subscriptions")
