@@ -9,7 +9,9 @@ export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <>
       <Header />
-      <main className="flex-1">{children}</main>
+      <main className="container flex max-w-screen-xl items-center px-4 xl:px-0">
+        {children}
+        </main>
     </>
   )
 }

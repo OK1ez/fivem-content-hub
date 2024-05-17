@@ -47,7 +47,7 @@ export function MainNav() {
           >
             Vehicles
           </Link>
-          {/* <Link
+          <Link
             href="/props"
             className={cn(
               "transition-colors hover:text-foreground/80",
@@ -79,7 +79,7 @@ export function MainNav() {
             )}
           >
             Weapons
-          </Link> */}
+          </Link>
           {/* <Link
             href="/blocks"
             className={cn(

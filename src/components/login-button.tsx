@@ -6,7 +6,7 @@ import { buttonVariants } from "./ui/button";
  
 export default function SignIn() {
   return(
-    <Button variant={'ghost'}>
+    <Button variant='link'>
       Login
     </Button>
   )
